@@ -10,7 +10,7 @@ import org.jboss.resteasy.annotations.jaxrs.PathParam;
 import java.util.List;
 import java.util.Optional;
 
-@Path("/api/books")
+@Path("/api/v1/books")
 public class BookResource {
 
     @GET
